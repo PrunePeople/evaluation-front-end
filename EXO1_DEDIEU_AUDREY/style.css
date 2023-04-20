@@ -9,7 +9,7 @@
 /* Style du bouton */
 .button {
   border: 2px solid green;
-  background-color: rgba(216,244,204,255);
+  background-color: rgba(216, 244, 204, 255);
   height: 50px;
   width: 150px;
   font-size: 16px;
@@ -24,9 +24,14 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5); /* Couleur de fond sombre avec un peu de transparence */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Couleur de fond sombre avec un peu de transparence */
 }
-  
+
 /* Style pour le contenu de la fenêtre modale */
 .modal-content {
   background-color: #fefefe;
@@ -38,7 +43,7 @@
   border-bottom-left-radius: 10px; /* Arrondi de la fenêtre */
   border-top-right-radius: 10px;
 }
-  
+
 /* Style pour le bouton de fermeture */
 .close {
   float: right; /* Placement à droite (elle est par défaut déjà en haut du contenu) */
@@ -55,7 +60,7 @@
 .close:hover {
   cursor: pointer;
 }
-  
+
 p {
   text-align: justify;
 }
