@@ -1,6 +1,6 @@
 /* Style pour la div qui contiendra l'image de fond */
 .bg-img {
-    background-image: url(/EXO7_DEDIEU_AUDREY/src/img/10.jpg); /* On définit une image de fond par défaut */
+    background-image: url("./img/10.jpg"); /* On définit une image de fond par défaut */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat; /* On empêche l'image de fond de se répéter */
