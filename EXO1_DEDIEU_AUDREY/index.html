@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Insertion du fichier CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Exo #1 : Affichage d'une fenêtre modale</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Création d'un contenant pour placer le bouton -->
+    <div class="positionButton">
+      <!-- Création d'un bouton pour ouvrir une fenêtre modale -->
+      <button class="button" id="open-modal">Ouvrir Popup</button>
+    </div>
 
-  <!-- Création d'un contenant pour placer le bouton -->
-  <div class="positionButton">
-    
-    <!-- Création d'un bouton pour ouvrir une fenêtre modale -->
-    <button class="button" id="open-modal">Ouvrir Popup</button>
-  </div>
+    <!-- Création de la fenêtre modale -->
+    <div id="modal" class="modal">
+      <!-- Contenu de la fenêtre modale -->
+      <div class="modal-content">
+        <!-- Fermeture de la modale -->
+        <span class="close">&times;</span>
+        <!-- Insertion d'une icon Croix -->
 
-  <!-- Création de la fenêtre modale -->
-  <div id="modal" class="modal">
+        <!-- Texte de la modale -->
+        <h1>Titre</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore
+          illo blanditiis mollitia doloribus atque voluptate maxime commodi
+          eaque ad? Ut doloribus beatae totam saepe? Aperiam asperiores
+          recusandae earum aut.
+        </p>
+      </div>
+    </div>
 
-    <!-- Contenu de la fenêtre modale -->
-    <div class="modal-content">
-
-    <!-- Fermeture de la modale -->
-    <span class="close">&times;</span> <!-- Insertion d'une icon Croix -->
-
-    <!-- Texte de la modale -->
-    <h1>Titre</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore illo blanditiis mollitia doloribus atque voluptate maxime commodi eaque ad? Ut doloribus beatae totam saepe? Aperiam asperiores recusandae earum aut.</p>
-    </div>  
-  </div>
-
-  <!-- Insertion du fichier JS -->
-  <script src="script.js"></script>
-</body>
+    <!-- Insertion du fichier JS -->
+    <script defer src="script.js"></script>
+  </body>
 </html>

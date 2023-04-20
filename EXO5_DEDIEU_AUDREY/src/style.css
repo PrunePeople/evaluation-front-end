@@ -1,6 +1,6 @@
 /* Style du corps de la page - Image de fonc */
 body {
-  background-image: url("/EXO5_DEDIEU_AUDREY/src/img/fond.png"); /* Image de fond */
+  background-image: url("./img/fond.png"); /* Image de fond */
   background-size: cover; /* Taille de l'image de fond */
   background-attachment: fixed; /* Fixation de l'image de fond */
 }
@@ -56,10 +56,14 @@ label {
 }
 
 /* Style pour l'élément cliquable */
-span {
-  cursor: pointer; 
-  font-size: 12px;
+img[alt="eye"] {
+  position: absolute;
+  top: 52%;
+  right: 10%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
+
 
 /* Style du bouton */
 button {
@@ -70,3 +74,4 @@ button {
   cursor: pointer;
   width: 80%;
 }
+
