@@ -1,0 +1,27 @@
+.button-submit {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 0 16px;
+  background-color: #fcfcfd;
+  border-radius: 4px;
+  border-width: 0;
+  color: #36395a;
+  overflow: hidden;
+  font-size: 18px;
+  transition: box-shadow 0.15s, transform 0.15s;
+  will-change: box-shadow, transform;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px,
+    rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-submit:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}

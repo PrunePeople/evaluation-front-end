@@ -1,5 +1,5 @@
 body {
-  background-image: url("/EXO6_DEDIEU_AUDREY/src/img/fond.jpg"); /* Image de fond */
+  background-image: url("./img/fond.jpg"); /* Image de fond */
   background-size: cover;
   background-attachment: fixed;
 }
@@ -56,6 +56,11 @@ textarea {
 .message {
   height: 100%;
   width: 100%;
+}
+
+.hidden-message-warning {
+  display: none;
+  color: red;
 }
 
 input::placeholder,

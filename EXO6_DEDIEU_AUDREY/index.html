@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/button.css">
     <title>Exo #6 : Limiter le nombre de caractères dans un textarea</title>
 </head>
 <body>
@@ -27,14 +28,15 @@
             
             <p>Caractères maximum : 
 
-                <!-- Changement de la couleur du nombre de caractères directement dans le fichier HTML -->
-                <span style="color:green;">50</span> <!--  -->
+                <span id="textarea-counter" class="textarea-counter-safe"></span>
+                <small class="hidden-message-warning"></small> <!--  -->
             </p>
         </div>
         
         <div class="container-button">
-            <button type="submit" id="envoyer-btn">Envoyer</button>
+            <button class="button-submit" type="submit" id="envoyer-btn">Envoyer</button>
         </div>
     </form>
+    <script defer type="text/javascript" src="./src/script.js" ></script>
 </body>
 </html>
