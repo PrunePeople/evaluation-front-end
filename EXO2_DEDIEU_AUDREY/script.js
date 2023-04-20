@@ -10,7 +10,7 @@ menuBtn.addEventListener('click', () => {
 
 // Ecouteur d'evenement du clic sur la croix de fermeture pour cacher la barre de navigation latérale
 closeBtn.addEventListener('click', () => {
-  navMenu.classList.remove('show');
+  navMenu.classList.toggle('show');
 });
 
 // Ecouteur d'événement de transition pour afficher / masquer la croix de fermeture rouge

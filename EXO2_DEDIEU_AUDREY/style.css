@@ -40,7 +40,6 @@ header {
 /* Position de la navBar de gauche */
 .nav-menu {
 	position: fixed;
-	top: 60px;
 	left: -300px;
 	width: 300px;
 	height: 100%;
@@ -71,7 +70,7 @@ header {
 
 /* Permet de montrer la bare de naviagtion quand on appuie sur le bouton */
 .show {
-	left: 0;
+	left : 0;
 }
 
 .close-btn {
