@@ -1,140 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="src/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
     <title>Exo #3 : Fixer une barre de naviga􀆟on au scroll</title>
-</head>
-<body>
-  <header class="header-container">
+  </head>
+  <body>
+    <header class="header-container">
+      <!-- Insertion de l'image du header -->
+      <div class="picture">
+        <img
+          src="src/img/header.jpg"
+          alt="Image d'en-tête d'une femme devant un soleil levant"
+        />
+      </div>
 
-    <!-- Insertion de l'image du header -->
-    <div class="picture">
-      <img src="src/img/header.jpg" alt="Image d'en-tête">
-    </div>
+      <!-- Insertion de la barre de naviagtion du header -->
+      <nav class="navbar">
+        <a href="#">Accueil</a>
+        <a href="#">A propos</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
 
-    <!-- Insertion de la barre de naviagtion du header -->
-    <nav class="navbar">
-      <a href="#">Accueil</a>
-      <a href="#">A propos</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-
-  <!-- Contenu de la page -->
-  <div class="container">
-
-    <!-- Un paragraphe long pour avoir de quoi scroller -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
+    <!-- Contenu de la page -->
+    <div class="container">
+      <!-- Un paragraphe long pour avoir de quoi scroller -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
         mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
         faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
@@ -147,51 +164,58 @@
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
         lorem et nibh auctor, in auctor libero tempus. Aliquam sed vestibulum
-        leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit
-        mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
+        leo, at venenatis eros. Mauris vel mauris non lectus iaculis
+        suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        blandit mauris at eros lacinia vestibulum. Vestibulum ante ipsum primis
+        in faucibus orci luctus et ultrices posuere cubilia Curae; Proin a
         ullamcorper mauris. Nam eget sapien sed magna rhoncus convallis a eu
         mauris. Ut euismod vel enim non interdum. Integer non sapien ut est
         commodo tincidunt vitae eu orci. Suspendisse potenti. Nunc ullamcorper
@@ -199,6 +223,5 @@
         leo, at venenatis eros. Mauris vel mauris non lectus iaculis suscipit.
       </p>
     </div>
-
-</body>
+  </body>
 </html>
