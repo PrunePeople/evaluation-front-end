@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Exo #4 : Agrandir ou réduire la taille d'un texte</title>
+</head>
+<body>
+    <header>
+        <h1>Mon site web</h1>
+    </header>
+    
+    <main> 
+        <nav class="navbar">
+		    <a href="#">Accueil</a>
+		    <a href="#">Blog</a>
+		    <a href="#">Contact</a>
+	    </nav>
+
+        <div class="bloc">
+
+            <!-- Fil d'Ariane  -->
+            <nav class="breadcrumb">
+                <ul>
+                    <li>
+                        <a href="#">Accueil /</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog /</a>
+                    </li>
+                    <li>Titre de l'article</li>
+                </ul>
+            </nav>
+      
+            <div class="container">
+                <div class="column-gauche">
+
+                    <!-- Titre et paragraphe -->
+                    <h2>Titre de l'article</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat totam eum pariatur vel exercitationem! Facere aspernatur dignissimos aliquid ab commodi a quidem! Quibusdam minus ipsa eos suscipit, hic quia. Saepe?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat totam eum pariatur vel exercitationem! Facere aspernatur dignissimos aliquid ab commodi a quidem! Quibusdam minus ipsa eos suscipit, hic quia. Saepe?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat totam eum pariatur vel exercitationem! Facere aspernatur dignissimos aliquid ab commodi a quidem! Quibusdam minus ipsa eos suscipit, hic quia. Saepe?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat totam eum pariatur vel exercitationem! Facere aspernatur dignissimos aliquid ab commodi a quidem! Quibusdam minus ipsa eos suscipit, hic quia. Saepe?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat totam eum pariatur vel exercitationem! Facere aspernatur dignissimos aliquid ab commodi a quidem! Quibusdam minus ipsa eos suscipit, hic quia. Saepe?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat totam eum pariatur vel exercitationem! Facere aspernatur dignissimos aliquid ab commodi a quidem! Quibusdam minus ipsa eos suscipit, hic quia. Saepe?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat totam eum pariatur vel exercitationem! Facere aspernatur dignissimos aliquid ab commodi a quidem! Quibusdam minus ipsa eos suscipit, hic quia. Saepe?</p>
+                </div>
+
+                <div class="column-droite">
+                    <h3>Réglage</h3>
+            
+                    <!-- Boutons pour agrandir et réduire la taille du texte -->
+                    <button id="more">+</button>
+                    <button id="less">-</button>
+
+                    <hr class="separation">
+
+                    <p class="current-font" id="current-font">Taille police actuelle: 16px.</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="copyright">@ Mon site web</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

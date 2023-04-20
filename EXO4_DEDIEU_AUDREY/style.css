@@ -1,0 +1,110 @@
+/* Style pour l'en-tête */
+header {
+  color: rgb(33, 33, 33);
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+}
+
+main {
+  align-items: center;
+  background-color: rgba(241,241,241,255);
+}
+
+/* Style pour la barre de navigation */
+.navbar {
+  background-color: black;
+  text-align: center; /* Centre les liens horizontalement */
+}
+
+/* Style pour les liens de la barre de navigation */
+.navbar a {
+  display: inline-block; /* Affiche les liens en ligne */
+  color: white;
+  padding: 10px;
+  text-decoration: none; /* Supprime le soulignement des liens */
+  font-weight: bold;
+}
+
+.bloc {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: inset;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+/* Styles pour le fil d'Ariane */
+.breadcrumb {
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: none; /* Supprime les puces de la liste */
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block; /* Aligner les liens */
+  color: gray;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none; /* Enlever le soulignage */
+  color: rgba(63,58,163,255);
+}
+
+/* Style pour le container et la position des colonnes */
+.container {
+  display: flex; /* Utilise un layout flexible */
+  margin: 0 auto;
+}
+
+/* Styles pour la colonne de gauche */
+.column-gauche {
+	flex-basis: 70%;
+	padding: 20px;
+}
+
+h2 {
+  color: rgb(147,154,161);
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+/* Styles pour la colonne de droite */
+.column-droite {
+	flex-basis: 30%;
+	padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  text-align: start;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+}
+
+.current-font {
+  color: rgb(147,154,161);
+}
+
+/* Style du copyright */
+.copyright {
+  color: rgb(147,154,161);
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 1%;
+}

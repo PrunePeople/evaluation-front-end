@@ -1,0 +1,56 @@
+* {
+background-color: rgba(248,203,40,255);
+}
+
+.header-container {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* Style de l'image */
+.picture {
+  top: 0; /* en haut de la page */
+  width: 100%; /* largeur totale de la page */
+  height: 200px; /* hauteur de votre choix pour accueillir l'image */
+}
+
+/* Style de la barre de navigation */
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* positionnement des liens à droite */
+  background-color: rgb(27,27,27);
+  position: fixed; /* position fixe */
+  top: 628px; /* en dessous de l'image qui fait 628px de hauteur */
+  width: 100%; /* largeur totale de la page */
+}
+
+/* Style des liens dans la barre de navigation */
+.navbar a {
+  color: rgba(248,203,40,255);
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; /* pas de soulignement */
+  font-size: 18px;
+  background-color: rgb(27,27,27);
+  text-transform: uppercase; /* Mettre en majuscules de préférence dans le CSS */
+}
+
+/* Style du contenu */
+.container {
+  margin-top: 700px; /* Pour afficher le contenu en dessous de la barre de navigation */
+  padding-left: 50px; /* Marge à droite et à gauche pour l'esthétique */
+  padding-right: 50px;
+;
+}
+
+/*Style du paragraphe */
+p {
+  background-color: rgb(251,220,100);
+  padding: 20px;
+  border: 1px solid black;
+}

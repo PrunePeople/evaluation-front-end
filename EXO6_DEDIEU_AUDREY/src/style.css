@@ -1,0 +1,74 @@
+body {
+  background-image: url("/EXO6_DEDIEU_AUDREY/src/img/fond.jpg"); /* Image de fond */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Style du formulaire */
+form {
+  flex-direction: column;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5); /* Fond de formulaire à 50% transparent blanc */
+  border-radius: 10px;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 10%;
+  box-shadow: inset;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.frame {
+  background-color: white;
+  margin-bottom: 30px;
+}
+      
+/* Style du label */
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: start;
+  padding-left: 2%;
+  color: rgb(94, 94, 94);
+}
+
+/*Style de l'input */
+input {
+  border: 1px solid white;
+  padding-left: 20px;
+  width: 92%;
+}
+
+/* Style du textarea */
+textarea {
+  width: auto;
+  height: 100px;
+  padding-left: 20px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  resize: none; /* empêche le redimensionnement */
+}
+
+.message {
+  height: 100%;
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-style:initial;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  text-align: center;
+}
+
+.container-button {
+  display: flex; /* active le mode flex */
+  justify-content: center; /* centre horizontalement les éléments */
+}

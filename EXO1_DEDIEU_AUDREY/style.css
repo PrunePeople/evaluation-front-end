@@ -1,0 +1,61 @@
+/* Placement du bouton au centre de la page */
+.positionButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style du bouton */
+.button {
+  border: 2px solid green;
+  background-color: rgba(216,244,204,255);
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+}
+
+/* Style pour la fenêtre modale */
+.modal {
+  display: none; /* La fenêtre modale est cachée par défaut */
+  position: fixed; /* La fenêtre modale est positionnée de manière fixe */
+  z-index: 1; /* La fenêtre modale doit être au-dessus de tout le contenu de la page, donc 1 */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5); /* Couleur de fond sombre avec un peu de transparence */
+}
+  
+/* Style pour le contenu de la fenêtre modale */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% du haut et centré horizontalement */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Largeur de la fenêtre modale */
+  text-align: center;
+  border-bottom-left-radius: 10px; /* Arrondi de la fenêtre */
+  border-top-right-radius: 10px;
+}
+  
+/* Style pour le bouton de fermeture */
+.close {
+  float: right; /* Placement à droite (elle est par défaut déjà en haut du contenu) */
+  font-weight: bold;
+  color: white;
+  content: "";
+  background-color: black; /* Couleur noire */
+  width: 20px; /* Largeur et hauteur du rond */
+  height: 20px;
+  border-radius: 50%; /* Forme circulaire */
+}
+
+/* Style du pointer au survol de la croix de fermeture */
+.close:hover {
+  cursor: pointer;
+}
+  
+p {
+  text-align: justify;
+}

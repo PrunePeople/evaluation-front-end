@@ -1,0 +1,67 @@
+header {
+  background-color: rgba(45,62,80,255);
+  height: 150px;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}
+
+/* Style de l'état 1 de la barre de navigation */
+nav {
+  background-color: rgb(229,75,60);
+  position: fixed;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  transition: background-color 0.5s ease-in-out;
+  z-index: 999;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+  
+nav ul li {
+  margin: 0 10px;
+}
+  
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style de l'état 2 en scroll de la barre de navigation */
+nav.scrolled,
+ul.scrolled,
+li.scrolled,
+a.scrolled {
+  background-color: white;
+  color: black;
+}
+
+/* Style de la section */
+section {
+  padding: 5%;
+  background-color: rgb(185,191,192);
+}
+
+/* Style de l'artcile */
+article {
+  padding: 5%;
+}
+
+/* Style du footer */
+footer {
+  background-color: rgba(45,62,80,255);
+  height: 150px;
+  padding-top: 75px;
+  text-align: center;
+  color: white;
+}

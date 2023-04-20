@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+    <title>Exo #5 : Afficher ou masquer un Mot de Passe</title>
+</head>
+<body>
+  
+    <!-- Création d'un formulaire -->
+    <form class="form" id="contact-form">
+      <h1>Private</h1>
+
+      <!-- Input Connexion -->
+      <div class="special-input">
+        <input type="text" id="login" name="login" placeholder="Indiquez votre Login" required>
+        <label for="login">Votre login</label>
+      </div>
+
+      <br>
+
+      <!-- Input Mot de passe -->
+      <div class="special-input">
+        <label for="password">Votre password</label>
+        <input type="password" id="password" name="password" placeholder="Indiquez votre password" required>
+        
+        <br>
+
+        <!-- Basculement masquage/affichage : Masqué par défaut -->
+        <span id="show-password" class="toggle-password">Afficher</span> 
+      </div>
+
+      <!-- Bouton d'envoi -->
+      <div>
+        <button type="submit" id="envoyer-btn">Entrer</button>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

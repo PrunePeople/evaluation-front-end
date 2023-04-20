@@ -1,0 +1,90 @@
+/* Style de la page */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(190,195,199,255);
+}
+
+/* Style de l'en-tête */
+header {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: rgba(190, 195, 199, 1);
+}
+
+/* Positionnement du menu */
+.navbar {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 20px; /* position non collée au bord de la page */
+}
+
+/* Style pour le Menu "hamburger" */
+.hamburger-menu {
+	display: flex;
+	flex-direction: column; /* Disposition des lignes en colonnes*/
+	justify-content: space-between;
+	height: 24px;
+	cursor: pointer; /* changement du pointer au survol du menu */
+}
+
+/* Style pour les "lignes" du burger */
+.hamburger-menu__line {
+	width: 30px;
+	height: 5px;
+	background-color: rgb(44, 59, 82);
+}
+
+/* Position de la navBar de gauche */
+.nav-menu {
+	position: fixed;
+	top: 60px;
+	left: -300px;
+	width: 300px;
+	height: 100%;
+	background-color: rgb(44, 59, 82);
+	text-align: center;
+}
+
+/* Style des ul de la barre de navigation */
+.nav-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Style des li de la barre de navigation */
+.nav-menu li {
+	margin: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+/* Style des a de la barre de navigation */
+.nav-menu a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+}
+
+/* Permet de montrer la bare de naviagtion quand on appuie sur le bouton */
+.show {
+	left: 0;
+}
+
+.close-btn {
+	position: absolute;
+	top: 5px;
+	left: 250px;
+	cursor: pointer;
+}
+  
+.close {
+	font-weight: bold;
+	color: rgba(228,87,51,255);
+	font-size: 50px;
+}
+
+  
